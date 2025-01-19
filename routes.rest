@@ -19,16 +19,16 @@ Content-Type: application/json
 }
 
 ### Update a user, for this we use PUT
-PUT http://localhost:3000/users/678af3d18ec10b4f0a893830
+PUT http://localhost:3000/users/678c6a4b4b824c68f949feed
 Content-Type: application/json
 
 {
-    "firstName": "Sara",
-    "lastName": "Melendez",
-    "email": "aida@gmail.com",
-    "favoriteColor": "purple",
-    "birthday": "June 22"
+    "firstName": "Peter",
+    "lastName": "Porker",
+    "email": "spidey@gmail.com",
+    "favoriteColor": "red",
+    "birthday": "January 1"
   }
 
 ### Delete a user
-DELETE http://localhost:3000/users/678af235f0d38dbb472ae641
+DELETE http://localhost:3000/users/678c6acb4b824c68f949feee
